@@ -1,0 +1,144 @@
+body{
+  background-color:rgb(173, 241, 109);
+}
+.container{
+  height: 800px;
+  width: 1000px;
+  position: absolute;
+  top: 20%;
+  left: 17%;
+}
+.background{
+  height: 500px;
+  width: 700px;
+  position: absolute;
+  left: 15%;
+  top: 15%;
+  border-radius: 60px;
+  box-shadow: 0 0 5px 10px #555;
+}
+.slidecontainer {
+  width: 100%;
+}
+#bar{
+  position: absolute;
+  left: 25%;
+  bottom: 30%;
+  width: 50%;
+  -webkit-appearance: none;
+    appearance: none;
+    z-index: 4;
+    background: #000000;
+}
+#bar::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  margin-top: -3px;
+  margin-left: 0px;
+  height: 10px;
+  width: 17px;
+  
+  background: -webkit-linear-gradient(45deg,  green, rgb(193, 255, 6));
+  border-radius: 60px;
+  cursor: pointer;
+}
+
+/* style for the progress bar's runnable track */
+#bar::-webkit-slider-runnable-track {
+  -webkit-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  max-height: 5px;
+  border-radius: 30px;
+}
+
+/* style to remove blue shade of the progress bar when clicked on/selected */
+#bar:focus {
+  outline: none;
+}
+
+.play {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  
+  cursor: pointer;
+  bottom: 23%;
+  z-index: 4;
+  font-size: 53px;
+  left: 49%;
+  background-color: grey;
+  border-radius: 60px;
+}
+ .backward {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+ 
+  cursor: pointer;
+  bottom: 25%;left: 33%;
+  font-size: 40px;
+  z-index: 4;
+  background-color: grey;
+  border-radius: 70px;
+}
+.forward {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+ 
+  cursor: pointer;
+  bottom: 25%;left: 67%;
+  font-size: 40px;
+  z-index: 4;
+  background-color: grey;
+  border-radius: 70px;
+}
+.loop {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+ 
+  cursor: pointer;
+  bottom: 28%;left: 76%;
+  font-size: 40px;
+  z-index: 4;
+  background-color: grey;
+  border-radius: 70px;
+}
+.time{
+  
+  height: 50px;
+    width: 50px;
+    cursor: pointer;
+    bottom: -1%;
+    right: 11%;
+    z-index: 4;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    align-items: center;
+    color: black;
+}
+.runtime{
+  
+  height: 50px;
+    width: 50px;
+    cursor: pointer;
+    bottom: -1%;
+    right: 11%;
+    z-index: 4;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    align-items: center;
+    color: black;
+}
+.songtitle{
+  position: absolute;
+  top: 110%;
+  left: 40%;
+  font-size: 35px;
+  color: rgb(14, 44, 19);
+  font-style: italic;
+
+}
+
+

@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <link href="random2.css" rel="stylesheet">
+        <script type="text/javascript" src="random1.js"></script>
+    </head>
+    <body>
+    <div class="container">
+      <img src="background.jpg" class="background"/>
+      <img src="play.png" class="play" onclick="myFunction()"/>
+      <img src="forward.png" class="forward" onclick="next()"/>
+      <img src="backward.png" class="backward" onclick="prev()">
+      <img src="loop.jfif" class="loop" onclick="loop()"/>
+      
+      
+      
+      <div class="slidecontainer">
+        <input type="range" id="bar" min="0" max="100" value="0" onchange="update()" >
+        </div>
+        <div style="position:absolute;left:24%;bottom:25%" id="runtime">0.00</div>
+      <div style="position:absolute;left:76%;bottom:25%" id="time">0:00</div>
+     </div>
+      <div class="songtitle">Demons</div>
+    </body>
+</html>
